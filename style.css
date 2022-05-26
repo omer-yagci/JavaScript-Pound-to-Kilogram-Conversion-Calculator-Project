@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Maiden+Orange&display=swap");
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #efdbd2;
+  font-family: "Maiden Orange", cursive;
+}
+.container {
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1), 0 6px 6px rgba(0, 0, 0, 0.1);
+  padding: 50px 20px;
+  text-align: center;
+  max-width: 100%;
+  width: 600px;
+  height: 400px;
+}
+.title {
+  font-size: 2.8rem;
+}
+.content {
+  font-size: 1.5rem;
+  text-align: left;
+}
+.form-action {
+  font-size: 1.5rem;
+}
+
+input {
+  font-size: 1.1rem;
+  font-weight: 600;
+  background-color: lightseagreen;
+  max-width: 100%;
+  width: 200px;
+}
+input:hover {
+  background-color: aquamarine;
+  transform: scale(0.99);
+}
+#converted-value {
+  text-decoration: underline;
+  font-size: 2rem;
+  font-weight: bold;
+}
